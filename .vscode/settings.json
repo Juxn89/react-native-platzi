@@ -5,6 +5,6 @@
     "source.sortMembers": "explicit"
   },
   "editor.formatOnSave": true,
-  "explorer.compactFolders": true,
+  "explorer.compactFolders": false,
   "explorer.autoReveal": true
 }
