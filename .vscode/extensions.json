@@ -1,0 +1,11 @@
+{ 
+	"recommendations": 
+	[
+		"expo.vscode-expo-tools",
+		"expo.vscode-expo-tools",
+		"coenraads.bracket-pair-colorizer-2",
+		"rodrigovallades.es7-react-js-snippets",
+		"pkief.material-icon-theme",
+		"esbenp.prettier-vscode"
+	] 
+}
