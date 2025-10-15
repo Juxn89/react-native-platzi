@@ -1,16 +1,12 @@
-import LoginForm from "@/components/LoginForm";
+// import LoginForm from "@/components/LoginForm";
+import NavigationStack from "@/navigation/Navigation";
 import { StyleSheet, Text, View } from "react-native";
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
+// import {Gretting} from "@/components/Gretting";
 
 export default function Index() {
   return (
-    <View
-      style={ styles.container }
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-			<LoginForm />
-			<StatusBar style="auto" />
-    </View>
+		<NavigationStack />
   );
 }
 
