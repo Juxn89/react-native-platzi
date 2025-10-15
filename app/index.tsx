@@ -1,12 +1,23 @@
-// import LoginForm from "@/components/LoginForm";
-import NavigationStack from "@/navigation/Navigation";
-import { StyleSheet, Text, View } from "react-native";
-// import { StatusBar } from 'expo-status-bar';
-// import {Gretting} from "@/components/Gretting";
+import { Button, StyleSheet, Text, View } from "react-native";
+import { useRouter } from "expo-router";
 
 export default function Index() {
+  const router = useRouter();
+  
+  const goToSettings = () => router.push("/SettingsScreen");
+
   return (
-		<NavigationStack />
+		<View style={styles.container}>
+			<Text>HomeScreen</Text>
+			<Text>HomeScreen</Text>
+			<Text>HomeScreen</Text>
+			<Text>HomeScreen</Text>
+			<Text>HomeScreen</Text>
+			<Text>HomeScreen</Text>
+			<Text>HomeScreen</Text>
+			<Text>HomeScreen</Text>
+			<Button title="Go to Settings" onPress={goToSettings} />
+		</View>
   );
 }
 

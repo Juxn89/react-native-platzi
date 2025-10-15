@@ -1,14 +1,10 @@
 import { Button, Text, View } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
-interface props {
-	navigation: any;
-}
+export const SettingsScreen = () => {
+	const navigation = useNavigation();
 
-export const SettingsScreen = ({ navigation }: props) => {
-
-	const { navigate } = navigation;
-
-	const goToHome = (pageName: string) => navigate(pageName);
+	const goToHome = (pageName: string) => navigation.navigate(pageName as never);
 	return (
 		<View>
 			<Text>SettingsScreen</Text>
