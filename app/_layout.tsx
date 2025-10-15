@@ -1,10 +1,5 @@
-import { Tabs } from "expo-router";
+import NavigationTab from "@/navigation/NavigationTab";
 
 export default function RootLayout() {
-  return (
-    <Tabs>
-      <Tabs.Screen name="index" options={{ title: "Home" }} />
-      <Tabs.Screen name="settings" options={{ title: "Settings" }} />
-    </Tabs>
-  );
+	return <NavigationTab />;
 }
